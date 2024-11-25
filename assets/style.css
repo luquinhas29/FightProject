@@ -1,0 +1,54 @@
+
+.fightarea {
+    display: flex;
+    gap: 20px;
+}
+
+#char, #monster {
+    flex: 1;
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    border-radius: 5px;
+    background-color: #F00;
+}
+
+.attackButton {
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 50px;
+    padding: 5px;
+}
+
+.log {
+    border: 1px dotted #999;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.imgMonster {
+    display: flex;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    border: 1px solid #333;
+    align-items: center;
+}
+
+.imgChar {
+    display: flex;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    border: 1px solid #333;
+    align-items: center;
+}
